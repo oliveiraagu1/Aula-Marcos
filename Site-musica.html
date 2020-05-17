@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Site sobre músicas</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Language" content="pt-br, en, fr, it">
+        <style>
+            button{
+                width: 50;
+                height: 50;
+                font-size: 25;
+                margin: 2;
+                cursor: pointer;
+            }
+            h1{text-align: center;
+                color:green;
+                font-size: 50px;
+            }
+            .samba{
+                color:blue;
+                font-size: 30px;
+            }
+            .sertanejo{
+                color:lightsalmon;
+                font-size: 30px;
+
+            }
+            .p{
+                font-weight: bold;
+                font-style: italic;
+                font-size: 18px;
+            }           
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 id="Home">Minha Página</h1>
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Menu">Menu</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <h2 class="samba">Pagode/Samba</h2>
+                    <p class="p">Top 3 músicas</p>
+                    <ol>
+                        <li><button class="button" type="button">Primeira música</button></li> 
+                        <li><button class="button" type="button">Segunda música</button></li> 
+                        <li><button class="button" type="button">Terceira música</button></li> 
+                    </ol>
+                </article>
+                <article>
+                    <h2 class="sertanejo">Sertanejo</h2>
+                    <p class="p">Top 3 músicas</p>
+                    <ol>
+                        <li><button class="button" type="button">Primeira música</button></li> 
+                        <li><button class="button" type="button">Segunda música</button></li> 
+                        <li><button class="button" type="button">Terceira música</button></li> 
+                    </ol>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p class="p">Inscreva-se para mais músicas</p>
+            <form method="POST">
+                <input type="text" name="nome" placeholder="Digite o seu nome">
+                <input type="email" name="email" placeholder="Digite o seu email">
+                <button class="button" type="button" onclick="msg()">Enviar</button>
+            </form>
+        </footer>
+         <audio controls>
+                <source src="Primeira-pagode.mp3" type="audio/ogg">
+                <source src="Primeira-pagode.mp3" type="audio/mpeg">
+        </audio>
+        <script>
+            function msg(){
+                alert("Enviado com sucesso!");
+            }
+            const button = document.querySelector('button');
+               button.addEventListener('click', function(){
+                   const audioPrimeiramusica = document.querySelector('audio')
+                   audioPrimeiramusica.play()
+               })
+       </script>
+    </body>
+</html>
