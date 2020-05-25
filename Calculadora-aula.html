@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CALCULADORA AULA</title>
+  <style>
+    span{
+      color:white;
+      font-size: 40px;
+      text-align: center;
+    }
+    .button{
+      width: 50;
+      height: 50;
+      font-size: 25;
+      cursor: pointer;
+      background: chartreuse;
+      color: black;
+    }
+    .coluna1{
+      background: cyan;
+      text-align: left;
+    }
+    .coluna2{
+      background:gold;
+      text-align:left
+    }
+    .coluna3{
+      background: gray;
+      text-align: center;
+      color: white;
+     
+    }
+  </style>
+</head>
+<body background="csgo.png">
+  <span>Calculadora</span>
+  <form>
+    <table cellspacing="0" celppading="2" border="1">
+      <tr>
+        <td colspan="4">
+          <input class="coluna1" type="number" name="numero" id="primeiroNumero">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <input class="coluna2" type="number" name="numero" id="segundoNumero">
+        </td>
+      </tr>
+      <tr>
+        <td><input class="button" type="button" value="+" onclick="somar()"></td>
+        <td><input class="button" type="button" value="-" onclick="subtrair()"></td>
+        <td><input class="button" type="button" value="*" onclick="multiplicar()"></td>
+        <td><input class="button" type="button" value="/" onclick="dividir()"></td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <input class="coluna3" type="number" name="numero" id="resultado" readonly>
+        </td>
+      </tr>
+    </table>
+  </form>
+  <script>
+    function somar() {
+      const primeiroNumero = document.getElementById("primeiroNumero");
+      const segundoNumero = document.getElementById("segundoNumero");
+      document.getElementById("resultado").value = 
+      Number(primeiroNumero.value) + Number(segundoNumero.value);
+      primeiroNumero.value="";
+      segundoNumero.value="";
+    }
+    function subtrair() {
+      document.getElementById("resultado").value = Number(document.getElementById("primeiroNumero").value) - Number(document.getElementById("segundoNumero").value);
+      document.getElementById("primeiroNumero").value="";
+      document.getElementById("segundoNumero").value="";
+    }
+    function multiplicar() {
+      document.getElementById("resultado").value = Number(document.getElementById("primeiroNumero").value) * Number(document.getElementById("segundoNumero").value);
+      document.getElementById("primeiroNumero").value="";
+      document.getElementById("segundoNumero").value="";
+    }
+    function dividir() {
+      document.getElementById("resultado").value = Number(document.getElementById("primeiroNumero").value) / Number(document.getElementById("segundoNumero").value);
+      document.getElementById("primeiroNumero").value="";
+      document.getElementById("segundoNumero").value="";
+    }
+  </script>
+</body>
+</html>
