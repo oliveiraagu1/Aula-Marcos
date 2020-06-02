@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CALCULADORA AULA</title>
+  <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body background="csgo.png">
+  <span>Calculadora</span>
+  <form>
+    <table cellspacing="0" celppading="2" border="1">
+      <tr>
+        <td colspan="4">
+          <input class="coluna1" type="number" name="numero" id="primeiroNumero">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <input class="coluna2" type="number" name="numero" id="segundoNumero">
+        </td>
+      </tr>
+      <tr>
+        <td><input class="button" type="button" value="+" onclick="somar()"></td>
+        <td><input class="button" type="button" value="-" onclick="subtrair()"></td>
+        <td><input class="button" type="button" value="*" onclick="multiplicar()"></td>
+        <td><input class="button" type="button" value="/" onclick="dividir()"></td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <input class="coluna3" type="number" name="numero" id="resultado" readonly>
+        </td>
+      </tr>
+    </table>
+  </form>
+  <script src="Calculadora.js"></script>
+</body>
+</html>
