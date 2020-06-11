@@ -1,0 +1,30 @@
+.topo {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    border: 2px solid black;
+}
+.nome {
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid black;
+}
+.nota {
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+}
+.nota:hover {
+    color: forestgreen;
+    border-radius: 8px;
+    border: 2px solid red;
+}
+.nome:hover {
+    color: blue;
+    border-radius: 8px; 
+    border: 2px solid red;
+}
+.topo:hover {
+    border-radius: 8px;
+    border: 2px solid red;
+}
