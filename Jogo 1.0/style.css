@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-color: rgb(114, 114, 114)
+}
+h1 {
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+main {
+    border: solid 1px;
+    height: 50%;
+}
+
+div {
+    padding: 30px;
+}
+p {
+    color: white;
+    text-shadow: 3px 3px 4px black;
+}
+
+#res0ate9, #res0ate99{
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.199);
+    font-size: x-large;
+    color: white;
+   
+}
