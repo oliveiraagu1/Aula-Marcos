@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background-color: rgb(31, 48, 31);
+    font-family: monospace;
+}
+div{
+    background-color: rgb(191, 193, 226);
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: 200px 550px;
+}
+h1 {
+    color: white; 
+    text-shadow: 1px 1px 2px black;
+}
+h3 {
+    color: red;
+    text-shadow: 1px 1px 2px black;
+    font-size: 20px;
+}
+p {
+    font-size: 30px;
+    
+}
+input{
+    border-color: black;
+    padding: 5px;
+    border-radius: 1px;
+    outline: 0;
+    display: block;
+    margin: 10px auto;
+}
+button {
+    cursor: pointer;
+    width: 23%;
+    border-color: black;
+    padding: 5px;
+    outline: 0;
+    display: block;
+    margin:  10px auto;
+}
+button:hover {
+    background-color: rgb(136, 189, 243);
+    border-radius: 10px;
+    outline: 0;
+}
