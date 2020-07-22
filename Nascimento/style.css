@@ -1,0 +1,58 @@
+body {
+    background-color: rgba(10, 78, 87, 0.432);
+    color: rgb(49, 42, 42);
+    text-align: center;
+    padding: 30px;
+}
+
+div{
+    background-color: rgba(155, 143, 143, 0.432);
+    margin-left: 640px;
+    margin-right: 640px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+
+    
+}
+h1{
+    color: green;
+    text-shadow: 1px 1px 1px black;
+}
+h3{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+input {
+    width: 300px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: 11px;
+}
+
+#dataNascimento {
+    font-size: 15px;
+}
+
+button {
+    background-color: rgb(53, 105, 107);
+    width: 300px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 11px;
+    border-color: black;
+    outline: 0;
+}
+
+button:hover {
+    border-radius: 15px;
+    color: white;
+    outline: 0;
+    background-color: rgb(47, 163, 152);
+}
