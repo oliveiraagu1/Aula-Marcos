@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogo - Random Number</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <h1>Jogo de números aleatórios</h1>
+            <div id="random0ate9">
+                <p>Insira um número entre 0 e 9</p>
+                <input required type="number" name="" id="num0ate9" placeholder="Número">
+                <input type="button" value="Enviar" onclick="random09()">
+
+                <div id="res0ate9"></div>
+            </div>
+
+            <div id="random0ate99">
+                <p>Insira um número entre 0 e 99</p>
+                <input required type="number" name="" id="num0ate99" placeholder="Número">
+                <input type="button" value="Enviar" onclick="random99()">
+
+                <div id="res0ate99"></div>
+            </div>
+        </main>
+    </body>
+
+    <script src="script.js"></script>
+
+</html>
