@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salario</title>
+</head>
+<body>
+    <form>
+        <label for="salarioAnual">Digite seu salário anual:</label><br>
+        <input type="number" id="salarioAnual" placeholder="Salário anual em R$" onfocus="this.value=''"><br>
+        <label for="piso">Digite o piso salarial mensal da sua categoria:</label><br>
+        <input type="number" id="piso" placeholder="Piso salarial em R$" onfocus="this.value=''"><br>
+        <input type="button" id="botao" value="Analisar" onclick="analisar()">
+    </form>
+    <div id="res"></div>
+    <script src="script.js"></script>
+</body>
+</html>
