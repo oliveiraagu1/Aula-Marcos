@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem de Votos</title>
+</head>
+<body>
+    <form name="meuForm" onsubmit="return validaFormulario()">
+        <h2><p>Contagem de Votos da Eleição 2020</p></h2>
+        <h3><p>Digite o número de eleitores do município</p></h3>
+        <input type="number" placeholder="Digite a nº de eleitores" name="numeroEleitores" id="nEleitores">
+        <h3><p>Digite o número de votos válidos</p></h3>
+        <input type="number" placeholder="Digite a nº de votos validos" name="numeroValidos" id="vValidos">
+        <h3><p>Digite o número de votos brancos</p></h3>
+        <input type="number" placeholder="Digite a nº de votos brancos" name="numeroBrancos" id="vBrancos">
+        <h3><p>Digite o número de votos nulos</p></h3>
+        <input type="number" placeholder="Digite a nº de votos nulos" name="numeroNulos" id="vNulos">
+        <p><button type="submit">Submeter</button></p>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
