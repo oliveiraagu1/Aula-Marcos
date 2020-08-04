@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(63, 62, 62);
+    font: 12pt Arial;
+    
+}
+div {
+    background-color: rgb(97, 179, 138);
+    width: auto;
+    height: auto;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+}
+h1 {
+    padding-top: 10px;
+}
+label {
+    font: 15pt  Arial;
+    
+}
+input {
+    height: 15px;
+    padding: 5px;
+}
+button {
+    cursor: pointer;
+    margin-top: 15px;
+    
+}
+p{
+    color: whitesmoke;
+    font: bold;
+}
