@@ -1,0 +1,82 @@
+body {
+    background-color: #adadad;
+    text-align: center;
+    margin-top: auto;
+    padding: 2px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    text-shadow: black 1px 1px 2px;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 5px;
+    margin-top: 45px;
+}
+
+input{
+    padding: 5px;
+}
+.alerta{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+.tabela {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    padding-left: 400px;
+}
+  
+.tabela td, .tabela th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+.tabela tr:nth-child(even){background-color: #f2f2f2;}
+  
+.tabela tr:hover {background-color: #ddd;}
+  
+.tabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: green;
+    color: white;
+}
+.textMouseOver:hover:after {
+    content: attr(data-hover);
+    font-size: 12pt;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 35px;
+    color: rgb(83, 146, 0);
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: normal;
+}
+.textMouseOverNota:hover:after {
+    content: attr(data-hover);
+    font-size: 12pt;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 35px;
+    color: rgb(83, 146,1);
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: normal;
+}
