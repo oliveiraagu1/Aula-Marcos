@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Média idade</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Informe abaixo (5) cinco nomes e idades de quaisquer pessoas, para saber a média</h1>
+
+        <div id="infos">
+            <div>
+                <label for="usuario1">Nome 1:</label>
+                <input id="nomeUs1" type="text" placeholder="Digite o nome 1">
+                <input id="idadeUs1" type="number" name="idade" placeholder="Idade 1" min="1" max="120">
+            </div>
+
+            <div>
+                <label for="usuario2">Nome 2:</label>
+                <input id="nomeUs2" type="text" placeholder="Digite o nome 2">
+                <input id="idadeUs2" type="number" name="idade" placeholder="Idade 2" min="1" max="120">
+            </div>
+
+            <div>
+                <label for="usuario3">Nome 3:</label>
+                <input id="nomeUs3" type="text" placeholder="Digite o nome 3">
+                <input id="idadeUs3" type="number" name="idade" placeholder="Idade 3" min="1" max="120">
+            </div>
+
+            <div>
+                <label for="usuario4">Nome 4:</label>
+                <input id="nomeUs4" type="text" placeholder="Digite o nome 4">
+                <input id="idadeUs4" type="number" name="idade" placeholder="Idade 4" min="1" max="120">
+            </div>
+
+            <div>
+                <label for="usuario5">Nome 5:</label>
+                <input id="nomeUs5" type="text" placeholder="Digite o nome 5">
+                <input id="idadeUs5" type="number" name="idade" placeholder="Idade 5" min="1" max="120">
+            </div>
+
+            <button onclick="enviarDados()" id="enviarNotasButton">Calcular</button>
+            <p id="resultadoMedias"></p>
+        </div>
+
+    </body>
+    <script src="script.js"></script>
+</html>
