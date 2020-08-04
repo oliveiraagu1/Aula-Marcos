@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <h1>Cálculo da média dos alunos</h1>
+        <hr>
+        <h3>Média das Notas:</h1>
+        <form action="">
+            <label for="nome" class="textMouseOver" data-hover="Conforme cadastro da escola">Nome Aluno:</label>
+            <input required type="text" name="nome" id="nomeAluno" placeholder="Digite o nome do aluno"autocomplete="off" onfocus="this.value=''">
+            <label for="Notas" class="textMouseOverNota" data-hover="Nota do bimestre">Notas:</label>
+            <input required type="number" name="primeira_nota" id="nota1" placeholder="Digite a nota 1" onfocus="this.value=''">
+            <input required type="number" name="segunda_nota" id="nota2" placeholder="Digite a nota 2" onfocus="this.value=''">
+            <br>
+            <button id="validar_dados" type="submit">Validar</button>
+            <button id="add_tabela" type="submit">Adicionar na tabela</button>
+        </form>
+        <div class="alerta"></div>
+        <hr>
+        <div class="tabela">
+        <table>
+            <thead>
+                    <tr>
+                    <th>Aluno(a)</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Média Anual</th>
+                    <th>Status do Aluno</th>
+                </tr>
+            </thead>   
+            <tbody id="corpoTabela">
+            </tbody>        
+        </table>
+        </div>  
+    </body>
+    <script src="script.js"></script>
+</body>
+</html>
