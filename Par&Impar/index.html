@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média de números pares</title>
+    <style>
+        p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calcule a média entre os números pares</h1>
+    <div id="input">
+        <h3>Digite 5 números pares:</h3>
+        <p>OBS: Não digite números ímpares, pois não irá ser calculado!!</p>
+        <input type="number" id="numero1" required placeholder="Digite o número 1"><br>
+        <input type="number" id="numero2" required placeholder="Digite o número 2"><br>
+        <input type="number" id="numero3" required placeholder="Digite o número 3"><br>
+        <input type="number" id="numero4" required placeholder="Digite o número 4"><br>
+        <input type="number" id="numero5" required placeholder="Digite o número 5"><br>
+        <input type="button" value="Calcular" onclick="verificar()">
+    </div>
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+</body>
+</html>
