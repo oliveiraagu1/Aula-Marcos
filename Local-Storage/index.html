@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Testando o Local storage</h1>
+    <h3>Digite seu nome e sua idade para fazer o teste</h3>
+
+    <div id="main">
+        
+        <input id="nome" type="text" placeholder="digite o nome" required>
+        <br>
+        <input id="idade" type="number" placeholder="digite a idade" required>
+        <br>
+        <input type="button" value="salvar" onclick="salvar()">
+        <input type="button" value="apresentar" onclick="apresentar()">
+        
+    </div>
+
+    <div id="second">
+        
+        <p id="resultado"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
