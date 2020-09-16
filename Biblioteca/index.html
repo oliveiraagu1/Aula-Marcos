@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Biblioteca</title>
+</head>
+<body>
+    
+    <div id="Main">
+        <p>
+            <input type="text" name="title" id="título" placeholder="Título"/>
+            <input type="text" name="publisher" id="editora" placeholder="Editora"/>
+            <input type="text" name="author" id="autor" placeholder="Autor"/>
+            <input type="number" name="year" id="ano" placeholder="Ano de Lançamento"/>
+            <input type="number" name="copies" id="copias" placeholder="Cópias"/>
+            <button onclick="Pesquisar()">
+                Pesquisar
+            </button>
+        </p>
+        <button onclick="Cadastrar()">
+            Cadastrar
+        </button>
+        <button onclick="Excluir()">
+            Excluir
+        </button>
+        <button onclick="Editar()">
+            Editar
+        </button>
+        <button onclick="Listar()">
+            Lista
+        </button>
+        <button onclick="Copias()">
+            Cópias
+        </button>
+    </div>
+        
+        <p></p>
+
+    <div id="Resultado">
+    </div>
+    
+          <script src="script.js"></script>
+
+</body>
+</html>
