@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+        <label for="nome">Aluno:</label>
+        <input type="text" id="nome" placeholder="nome" onfocus="this.value=''" name="nome" ><br>
+        <input type="checkbox" id="math" value="Matemática"> Matemática
+        <input type="checkbox" id="port" value="Português"> Português
+        <input type="checkbox" id="eng" value="Inglês"> Inglês
+        <input type="checkbox" id="bio" value="Biologia"> Biologia
+        <input type="checkbox" id="hist" value="História"> História
+        <br>
+        <input type="button" value="Salvar" id="salvar" onclick="salvar()">
+    </div>
+
+    <div id="res">Objeto: </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
