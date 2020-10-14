@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(0, 128, 128, 0.1);
+    text-align: center;
+}
+
+div {
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin: 40px 10px;
+}
+
+input[type="number"] {
+    width: 100px;
+}
+
+button {
+	background-color: #38d39f;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+h1 {
+    font-size: 17pt;
+}
+
+#sequenciaOriginal {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
